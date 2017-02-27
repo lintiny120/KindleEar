@@ -6,12 +6,12 @@ def getBook():
     return bookface
 
 class bookface(WeixinBook):
-    title                 = u'微信公众号：bookface'
-    description           = u'无人是孤岛，一书一世界'
+    title                 = u'寰俊鍏紬鍙凤細bookface'
+    description           = u'鏃犱汉鏄宀涳紝涓�涔︿竴涓栫晫'
     language              = 'zh-cn'
     feed_encoding         = "utf-8"
     page_encoding         = "utf-8"
     oldest_article        = 7
     deliver_days = ['Everyday']
     feeds = [
-            (u'小道消息', 'http://weixin.sogou.com/home?stype=3&ie=utf-8&query=bookface&oi=25820]
+            (u'bookface', 'http://weixin.sogou.com/home?stype=3&ie=utf-8&query=bookface&oi=25820]
